@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Book</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="background-color: #eee;">
+<div class="container" id="app">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h1 class="mx-3 my-3 text-center">Contact Book</h1> 
+        <div class="card">  
+          <div class="card-body">
+            <router-view />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<!-- <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCy3jjzyg5eK8SZSZ_sz349h-2nssz6ezE",
+    authDomain: "contact-firestore.firebaseapp.com",
+    databaseURL: "https://contact-firestore.firebaseio.com",
+    projectId: "contact-firestore",
+    storageBucket: "contact-firestore.appspot.com",
+    messagingSenderId: "854165789294",
+    appId: "1:854165789294:web:59089ce20f473cab9e647f",
+    measurementId: "G-CLSH59BM4B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script> -->
+
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>

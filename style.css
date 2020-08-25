@@ -1,0 +1,20 @@
+.btn{
+    color: WHITE;
+}
+
+.btn-danger {
+    background: red;
+}
+
+.btn-success{
+    background: blue ;
+}
+
+li a{
+    font-weight: 300;
+    font-size: larger;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
